@@ -16,7 +16,7 @@ export class Persona {
    * Getter del nombre
    * @returns retorna el nombre de la persona
    */
-  getNombre() {
+  getNombre(): string {
     return this.nombre;
   }
 
@@ -24,7 +24,7 @@ export class Persona {
    * Getter de los apellidos
    * @returns retorna los apellidos de la persona
    */
-  getApellidos() {
+  getApellidos(): string {
     return this.apellidos;
   }
 
@@ -32,7 +32,7 @@ export class Persona {
    * Getter de la fecha
    * @returns retorna la fecha de la persona
    */
-  getFecha() {
+  getFecha(): string {
     return this.fecha;
   }
 
@@ -40,7 +40,7 @@ export class Persona {
    * Getter del genero
    * @returns retorna el genero de la persona
    */
-  getGenero() {
+  getGenero(): string {
     return this.genero;
   }
 
@@ -48,7 +48,7 @@ export class Persona {
    * Getter del dni
    * @returns retorna el dni de la persona
    */
-  getDni() {
+  getDni(): string {
     return this.dni;
   }
 
@@ -110,7 +110,7 @@ export class Estudiante extends Persona {
    * Getter del correo electronico
    * @returns retorna el correo del estudiante
    */
-  getCorreo() {
+  getCorreo(): string {
     return this.correo;
   }
   /**
@@ -139,7 +139,7 @@ export class Profesor extends Persona {
    * Getter del correo electronico
    * @returns retorna el correo del profesor
    */
-  getCorreo() {
+  getCorreo(): string {
     return this.correo;
   }
   /**
@@ -163,19 +163,29 @@ export class Asignatura {
 
   }
   /**
+   * Getter nombre asingatura
+   * @returns nombre asignatura
+   */
+  getNombre(): string {
+    return this.nombre;
+  }
+
+  /**
    * Getter de profesores
    * @returns retorna el nombre de todos los profesores
    */
-  getProfes() {
+  getProfes(): string[] {
+    const arr: string[] = [];
     this.profes.forEach((element)=> {
-      return element.getNombre();
+      arr.push(element.getNombre());
     });
+    return arr;
   }
   /**
    * Getter de alumnos
    * @returns retorna el nombre de todos los estudiantes
    */
-  getAlumnos() {
+  getAlumnos(): string[] {
     const arr: string[] = [];
     this.alumnos.forEach((element)=> {
       arr.push(element.getNombre());

@@ -80,4 +80,15 @@ describe('Tests de la clase Asignatura', () => {
     const asign = new Asignatura('DSI', profes, estudiantes);
     expect(asign.getAlumnos()).to.deep.eq(['Emma', 'Cristina']);
   });
+
+  it('getter nombres profesor', () => {
+    const profe1 = new Profesor('Alejandra', 'Gonzalez', '28-04-1999', 'femenino', '11111111Y', 'alu@ull.edu.es');
+    const profe2 = new Profesor('Sonia', 'Gonzalez', '28-04-1999', 'femenino', '11111111Y', 'alu@ull.edu.es');
+    const profes = [profe1, profe2];
+    const estu1 = new Estudiante('Emma', 'Gonzalez', '28-04-1999', 'femenino', '11111111Y', 'alu@ull.edu.es');
+    const estu2 = new Estudiante('Cristina', 'Gonzalez', '28-04-1999', 'femenino', '11111111Y', 'alu@ull.edu.es');
+    const estudiantes = [estu1, estu2];
+    const asign = new Asignatura('DSI', profes, estudiantes);
+    expect(asign.getProfes()).to.deep.eq(['Alejandra', 'Sonia']);
+  });
 });
