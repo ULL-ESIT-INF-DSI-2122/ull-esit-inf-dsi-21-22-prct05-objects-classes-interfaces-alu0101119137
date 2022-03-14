@@ -1,10 +1,11 @@
 /**
  * Ejercicio 1. Pokedex
+ * @module Pokemon
  * @author Andrea Hernández Martín
  */
 
 
-type tipoP = "grass" | "fire" | "water" | "electric";
+type tipoP = "hierba" | "fuego" | "agua" | "electrico";
 type estadistBasic = {
   ataque: number;
   defensa: number;
