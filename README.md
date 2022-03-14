@@ -2,3 +2,6 @@
 ### Desarrollo de Sistemas Informáticos
 ### Andrea Hernández Martín - alu0101119137
 [Enlace a la Github Page](https://ull-esit-inf-dsi-2122.github.io/ull-esit-inf-dsi-21-22-prct05-objects-classes-interfaces-alu0101119137/)
+
+## Introducción  
+En esta práctica realizaremos 2 ejercicios en Typescript en los cuales aprenderemos a manejar sobre todo objetos, clases e interfaces. Además, utilizaremos TypeDoc para documentar el desarrollo del código implementado, así como las herramientas Mocha y Chai para incorporar desarrollo dirigipo por pruebas (TDD) o por comportamiento (BDD).
