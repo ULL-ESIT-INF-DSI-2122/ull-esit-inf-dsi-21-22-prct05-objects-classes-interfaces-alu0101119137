@@ -61,7 +61,7 @@ export class Combat {
         break;
     }
 
-    console.log(`Daño causado: ${50 * (pokemon1.estadisticas.ataque / pokemon2.estadisticas.defensa) * efectividad}`);
+    console.log('Daño causado: ' + (50 * (pokemon1.estadisticas.ataque / pokemon2.estadisticas.defensa) * efectividad).toFixed(2));
     return 50 * (pokemon1.estadisticas.ataque / pokemon2.estadisticas.defensa) * efectividad;
   }
 
@@ -74,8 +74,8 @@ export class Combat {
     while (danio1 <= this.pokemon1.estadisticas.hp && danio2 <= this.pokemon2.estadisticas.hp) {
       console.log(`Ataca ${this.pokemon1.nombre}:`);
       danio2 += this.danio(this.pokemon1, this.pokemon2);
-      console.log(`El valor del HP de ${this.pokemon1.nombre} = ${this.pokemon1.estadisticas.hp - danio1}`);
-      console.log(`El valor del HP de ${this.pokemon2.nombre} = ${this.pokemon2.estadisticas.hp - danio2}`);
+      console.log('El valor del HP de ' + (this.pokemon1.nombre) + ' = ' + (this.pokemon1.estadisticas.hp - danio1).toFixed(2));
+      console.log('El valor del HP de ' + (this.pokemon2.nombre) + ' = ' + (this.pokemon2.estadisticas.hp - danio2).toFixed(2));
 
       if (danio2 >= this.pokemon2.estadisticas.hp) {
         break;
@@ -83,8 +83,8 @@ export class Combat {
 
       console.log(`Ataca ${this.pokemon2.nombre}:`);
       danio1 += this.danio(this.pokemon2, this.pokemon1);
-      console.log(`El valor del HP de ${this.pokemon1.nombre} = ${this.pokemon1.estadisticas.hp - danio1}`);
-      console.log(`El valor del HP de ${this.pokemon2.nombre} = ${this.pokemon2.estadisticas.hp - danio2}`);
+      console.log('El valor del HP de ' + (this.pokemon1.nombre) + ' = ' + (this.pokemon1.estadisticas.hp - danio1).toFixed(2));
+      console.log('El valor del HP de ' + (this.pokemon2.nombre) + ' = ' + (this.pokemon2.estadisticas.hp - danio2).toFixed(2));
     }
   }
 }
