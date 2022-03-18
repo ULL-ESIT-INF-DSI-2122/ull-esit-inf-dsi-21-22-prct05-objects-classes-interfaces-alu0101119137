@@ -104,3 +104,15 @@ export class Combat {
   }
 }
 ```
+## Documentación TypeDoc  
+Para la documentación de los ejercicios utilicé la herramienta TypeDoc que convierte los comentarios en el código fuente de TypeScript en documentación HTML renderizada. A continuación, adjunto el enlace a la página web creada mediante TypeDoc.  
+[Enlace al directorio que contiene la documentación de la práctica]()  
+![Imagen de la página principal]()
+![Imagen de un ejercicio]()
+
+## Testing  
+Para la realización del testing de los ejercicios utilicé las herramientas Mocha y Chai.  
+  
+He realizado pruebas sobre todos los ejercicios en los cuales compruebo que los valores pasados por parámetro dan el resultado esperado o al contrario, es decir, se comprueba que no dan el resultado esperado. Para ello he creado un fichero ejercicio-n.spec.ts por cada ejercicio y he añadido algunas pruebas de todas las funciones utilizadas.  
+
+A continuación muestro la salida en la terminal al ejecutar el test.  
