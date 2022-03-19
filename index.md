@@ -120,9 +120,9 @@ El código que supe realizar está en el directorio correspondiente al ejercicio
 ## Documentación TypeDoc  
 Para la documentación de los ejercicios utilicé la herramienta TypeDoc que convierte los comentarios en el código fuente de TypeScript en documentación HTML renderizada. A continuación, adjunto el enlace a la página web creada mediante TypeDoc.  
 [Enlace al directorio que contiene la documentación de la práctica](https://github.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct05-objects-classes-interfaces-alu0101119137/tree/main/docs)  
-![Imagen de la página principal](https://raw.githubusercontent.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct05-objects-classes-interfaces-alu0101119137/main/img/Pagina%20principal.png)
-![Imagen de un ejercicio](https://raw.githubusercontent.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct05-objects-classes-interfaces-alu0101119137/main/img/combat%201.png)
-![Imagen de un ejercicio](https://raw.githubusercontent.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct05-objects-classes-interfaces-alu0101119137/main/img/combat%202.png)
+![Imagen de la página principal](https://raw.githubusercontent.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct05-objects-classes-interfaces-alu0101119137/main/img/Pagina%20principal.png?token=GHSAT0AAAAAABRWGKFXMK4HREWZRDMIZVIAYR7A7QA)
+![Imagen de un ejercicio](https://raw.githubusercontent.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct05-objects-classes-interfaces-alu0101119137/main/img/combat%201.png?token=GHSAT0AAAAAABRWGKFXZHVRWQWOIKMMIALMYR7A7CQ)
+![Imagen de un ejercicio](https://raw.githubusercontent.com/ULL-ESIT-INF-DSI-2122/ull-esit-inf-dsi-21-22-prct05-objects-classes-interfaces-alu0101119137/main/img/combat%202.png?token=GHSAT0AAAAAABRWGKFWPMMKCSGJXW4IFPXWYR7A7VQ)
 
 ## Testing  
 Para la realización del testing de los ejercicios utilicé las herramientas Mocha y Chai.  
